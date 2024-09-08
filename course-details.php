@@ -6,7 +6,7 @@ include ('class-lib.php');
 $job_placement_course = new Course();
 // $poly_intern_course = new Course();
 
-echo $job_placement_course -> course_name="English";
+echo $job_placement_course -> course_name="English";  // Final output will be dsiplayed from the latest object , not from the default value assigned in class var
 
 
 
