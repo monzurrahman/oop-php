@@ -6,8 +6,11 @@ include ('class-lib.php');
 $job_placement_course = new Course();
 // $poly_intern_course = new Course();
 
-echo $job_placement_course -> course_name="English";  // Final output will be dsiplayed from the latest object , not from the default value assigned in class var
+echo $job_placement_course -> course_name="English";
+echo "<br/>";
+// new object create 
 
-
+$latest_course = new Course();
+echo $latest_course -> course_name="New course Math";
 
 ?>
