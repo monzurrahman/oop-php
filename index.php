@@ -1,4 +1,4 @@
 <?php 
 
-echo "<h1>"."Myself First Heading"."</h1>";
+echo "<h1>"."First OOP PHP"."</h1>";
 
