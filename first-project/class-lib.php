@@ -18,13 +18,13 @@ class Course{
 		$this -> course_duration=$duration;
 				
 	}
-	/*
+	
 	function get_course_details(){
 		
 		return "Your course is".$this->course_name." Course fee is:".$this->course_fee." Course outline:".$this->course_outline." Course duration is:".$this->course_duration;
 		
 	}
-	*/
+	
 	
 	//$job_placement_course = new Course();
 }
