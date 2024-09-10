@@ -15,7 +15,7 @@ echo $latest_course -> course_name="New course Math";
 //
 
 
-//* 
+//* Example to create new object to work with the previous class. Tested
 
 include('class-lib.php');
 $name1 = $_GET['name'];
