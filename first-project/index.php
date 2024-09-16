@@ -1,6 +1,14 @@
 <?php
 include ('class-lib.php');
 
+// First example to create new object to work with
+/*
+$new_course_object = new Course;
+$new_course_object -> set_course_action("wordpress", "2000 taka", "New Course","6 Months"); 
+echo $new_course_object -> get_course_action();
+
+*/
+
 
 // Creating instance of the previous class ... Somethink like image/protibimbo/reflection/shadow of class
 $job_placement_course = new Course();
