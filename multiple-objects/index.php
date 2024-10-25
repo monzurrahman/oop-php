@@ -53,3 +53,26 @@
 				Price is :
 
 		*/
+// Setting up default value of properties within a class
+/* class firstOne
+	{
+		public $name= "Monzur";
+		public $course = "wordpress";
+
+		function set_first($name1, $course1):void
+		{
+			$this -> name= $name1;
+			$this-> course = $course1;
+		}
+
+		function get_first()
+		{
+			echo "My name is: {$this->name} and my course is: {$this-> course}";
+		}
+	}
+
+	$obj = new firstOne; 
+    $obj -> set_first("Abir","Arbi");
+	$obj->get_first(); 
+	echo <br/>;
+	*/
